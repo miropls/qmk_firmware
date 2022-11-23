@@ -1,5 +1,5 @@
 #pragma once
-
+// clang-format off
 /* key matrix size */
 // Rows are doubled-up
 #define MATRIX_ROWS 10
@@ -10,15 +10,15 @@
 #define MATRIX_COL_PINS { F6, F7, B1, B3, B2, B6 }
 #define DIODE_DIRECTION COL2ROW
 
-#define TAPPING_TERM 100
+#define TAPPING_TERM 200
 #define DEBOUNCE 5
 
 /* encoder support */
-#define ENCODERS_PAD_A { F5 }
-#define ENCODERS_PAD_B { F4 }
-#define ENCODERS_PAD_A_RIGHT { F4 }
-#define ENCODERS_PAD_B_RIGHT { F5 }
-#define ENCODER_RESOLUTION 2
+// #define ENCODERS_PAD_A { F5 }
+// #define ENCODERS_PAD_B { F4 }
+// #define ENCODERS_PAD_A_RIGHT { F4 }
+// #define ENCODERS_PAD_B_RIGHT { F5 }
+// #define ENCODER_RESOLUTION 2
 
 #define TAP_CODE_DELAY 10
 
